@@ -13,5 +13,7 @@ public class MarkerStyleFactory {
         }
         return styles.get(key);
     }
-
+    public static int getStyleCount() {
+        return styles.size();
+    }
 }
